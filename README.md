@@ -40,7 +40,7 @@ một vài biến đặc biệt như
 các key đó không thể set giá trị tùy ý (hoặc mình ko biết), để generate chuẩn thì các bạn chạy lệnh sau
 
 ```bash
-node -e 'console.log(require("crypto").randomBytes(32).toString("hex"))'
+node -e "console.log(require("crypto").randomBytes(32).toString("hex"))"
 ```
 
 kết quả sẽ có dạng như sau `f47dd9f62a7f112daf2e4b77e2f9bbc7ac50c9f56b8ee8d25f9aa58771d5690e` các bạn lấy giá trị này và điền vào trong file `.env`
