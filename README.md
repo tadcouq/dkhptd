@@ -40,6 +40,12 @@ một vài biến đặc biệt như
 
 các key đó không thể set giá trị tùy ý (hoặc mình ko biết), để generate chuẩn thì các bạn chạy lệnh sau
 
+Linux
+```bash
+node -e 'console.log(require("crypto").randomBytes(32).toString("hex"))'
+```
+
+Windows (nếu bạn vẫn muốn cố đấm ăn xôi như lần đầu tôi thử build xD)
 ```bash
 node -e "console.log(require("crypto").randomBytes(32).toString("hex"))"
 ```
