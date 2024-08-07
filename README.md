@@ -29,7 +29,8 @@ chi tiết từng module các bạn hãy click vào module tương ứng
 
 ![so-do-trien-khai.png](./so-do-trien-khai.png)
 
-# how to run
+# How to run
+Chạy trên môi trường Linux (duh)
 
 mỗi thư mục con có file `.env.example` các bạn copy thành file `.env` và điền các thông tin tương ứng với môi trường triển khai của các bạn
 
