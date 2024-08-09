@@ -47,7 +47,7 @@ node -e 'console.log(require("crypto").randomBytes(32).toString("hex"))'
 
 Windows (nếu bạn vẫn muốn cố đấm ăn xôi như lần đầu tôi thử build xD)
 ```bash
-node -e "console.log(require("crypto").randomBytes(32).toString("hex"))"
+node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 ```
 
 kết quả sẽ có dạng như sau `f47dd9f62a7f112daf2e4b77e2f9bbc7ac50c9f56b8ee8d25f9aa58771d5690e` các bạn lấy giá trị này và điền vào trong file `.env`
